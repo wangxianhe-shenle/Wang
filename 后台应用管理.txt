@@ -13,7 +13,6 @@ dev上的分支
 
 dev上的分支2
 
-<<<<<<< HEAD
 alert('欢迎')
 
 
@@ -25,7 +24,8 @@ alert('大哥')
 alert('二哥git')
 
 alert('123')
-=======
 
 我在dev上面
->>>>>>> dev
+
+
+我是doo
