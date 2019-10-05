@@ -1,0 +1,65 @@
+/* pages/xmnr/xmnr.wxss */
+
+.dymk {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  color: rgb(109, 48, 48);
+  font-size: 30rpx;
+  height: 400rpx;
+}
+
+.wzz {
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 15%;
+}
+
+.nrzx {
+  width: 86%;
+  padding: 7%;
+  background: #fff;
+}
+
+.imgg {
+  width: 100%;
+  display: flex;
+}
+
+.imgg view {
+  flex: 1;
+}
+
+.tp1 {
+  margin-right: 10rpx;
+}
+
+.tp2 {
+  margin-left: 10rpx;
+}
+
+.imgg image {
+  width: 100%;
+  height: 600rpx;
+}
+
+.nrrr {
+  width: 100%;
+  height: 100%;
+}
+
+.xbt {
+  width: 100%;
+  line-height: 100rpx;
+  height: 100rpx;
+}
+
+.nrzxx {
+  height: 100%;
+  background: #fff;
+}
+
+.btnr {
+  height: 100%;
+  font-size: 30rpx;
+}

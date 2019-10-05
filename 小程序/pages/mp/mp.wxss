@@ -1,0 +1,103 @@
+/* pages/mp/mp.wxss */
+
+.qj {
+  position: relative;
+  width: 100%;
+}
+
+.img {
+  width: 100%;
+  height: 380rpx;
+}
+
+.img image {
+  width: 100%;
+  height: 380rpx;
+}
+
+.nr {
+  position: absolute;
+  margin-top: -80rpx;
+  border-radius: 5rpx;
+  background: #fff;
+  margin-left: 5%;
+  width: 90%;
+  height: 400rpx;
+  border-style: solid;
+  box-shadow: 0px 2px 4px 2px #ddd;
+  border-width: 0rpx;
+}
+
+.mc, .sk {
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
+.mc {
+  margin-left: 40rpx;
+}
+
+.sk {
+  font-size: 30rpx;
+  display: flex;
+}
+
+.sk view:nth-of-type(1), .sk view:nth-of-type(3) {
+  width: 120rpx;
+  text-align: center;
+}
+
+.sk view:nth-of-type(2) {
+  flex: 1;
+  overflow: auto;
+}
+
+.sk view:nth-of-type(3) button {
+  width: 90%;
+  margin-right: 40rpx;
+  height: 60rpx;
+  font-size: 24rpx;
+}
+
+.sbf {
+  background: #fff;
+  margin-top: 320rpx;
+  height: 280rpx;
+  width: 100%;
+  display: flex;
+}
+
+.ccx {
+  margin-top: 60rpx;
+  width: 100%;
+  flex: 1;
+  text-align: center;
+  font-size: 30rpx;
+}
+
+.ccx image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  margin-bottom: 30rpx;
+}
+
+.erwm{
+  width: 320rpx;
+  height: 320rpx;
+  margin-left: 30%;
+}
+.erwm image{
+  width: 100%;
+  height: 100%;
+}
+
+.sbf button::after {
+  border: none;
+}
+.sbf button{
+    font-size: 28rpx;
+  color: #000;
+  background: #fff;
+}

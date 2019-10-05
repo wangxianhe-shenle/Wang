@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+<view> 微信登录授权</view>
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 授权登录 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    </block>
+  </view>
+  <view class='yl' bindtap='yl'> <button>请您预览</button> </view>
+</view>

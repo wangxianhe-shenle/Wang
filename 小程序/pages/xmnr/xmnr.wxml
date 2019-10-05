@@ -1,0 +1,13 @@
+<!--pages/xmnr/xmnr.wxml-->
+<view wx:for="{{nrxq}}">
+  <view class='dymk' style="background:url('https://img1.crystalbeauty.cn/9mxft0xeulv.png')">
+    <view class='wzz'>{{item.nr}}</view>
+    <view class='wzz'>{{item.js}}</view>
+  </view>
+  <view class='nrzx'>
+    <view class='nrzxx' wx:for="{{nrxq}}">
+      <view class='xbt'><rich-text nodes="{{item.name}}"></rich-text></view>
+    </view>
+  </view>
+
+</view>

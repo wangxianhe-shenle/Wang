@@ -1,0 +1,48 @@
+<!--pages/mp/mp.wxml-->
+<view class='qj'>
+  <view class='img'>
+      <image src='/img/11.png'></image>
+  </view>
+  <view class='nr'>
+    <view class='mc'>王显赫</view>
+    <view class='sk'>
+      <view>手机</view>
+      <view>{{shop.mobile}}</view>
+      <view>
+        <button bindtap='bddh' data-reply-phone="17344401663" >呼叫</button>
+      </view>
+    </view>
+    <view class='sk'>
+      <view>邮箱</view>
+      <view>{{shop.yx}}</view>
+      <view>
+        <button bindtap='textPaste'>复制</button>
+      </view>
+    </view>
+    <view class='sk'>
+      <view>职业</view>
+      <view>{{shop.zy}}</view>
+      <view>
+        <button bindtap='textPastee'>复制</button>
+      </view>
+    </view>
+  </view>
+  <view class='sbf' >
+    <view class='ccx' bindtap='schb'>
+    <button>
+      <view><image src='/img/1.jpg'></image></view>
+      生成海报</button>
+    </view>
+    <view class='ccx' bindtap='bcdh'>
+      <view><image src='/img/2.jpg'></image></view>
+      <button>保存电话</button>
+    </view>
+    <view class='ccx' bindtap='fxhy' >
+    <button open-type="share"  hover-class="other-button-hover">
+      <view><image src='/img/3.jpg'></image></view>分享好友</button>
+    </view>
+  </view>
+  <view class='erwm'>
+    <image src='/img/ewm_01.png'></image>
+  </view>
+</view>

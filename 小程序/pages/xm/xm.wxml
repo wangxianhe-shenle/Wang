@@ -1,0 +1,21 @@
+<!--pages/xm/xm.wxml-->
+<view>
+  <view class='dyg' bindtap='xxym'>
+    <view>
+      <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560307003963&di=92120073f33d66f2fb658205a3180d42&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Fback_pic%2F03%2F74%2F88%2F5257bd085fa9e03.jpg'></image>
+    </view>
+    <view class='wz'>
+      <view class='bt'>自我简介</view>
+    </view>
+  </view>
+
+  <view class='dyg' bindtap='xxym1'>
+    <view>
+      <image src='https://image.suning.cn/uimg/aps/material/155953071452021628.jpg'></image>
+    </view>
+    <view class='wz'>
+      <view class='bt'>乐活有家</view>
+      <view class='jj'>乐活有家</view>
+    </view>
+  </view>
+</view>

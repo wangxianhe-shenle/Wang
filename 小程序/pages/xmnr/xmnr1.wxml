@@ -1,0 +1,25 @@
+<!--pages/xmnr/xmnr1.wxml-->
+<view>
+  <view class='dymk' style="background:url('http://pics.sc.chinaz.com/files/pic/pic9/201905/zzpic18002.jpg')">
+    <view class='wzz'>"乐活有家"</view>
+  </view>
+  <view class='nrzx'>
+    <view class='nrzxx' wx:for="{{nrxq}}">
+      <view class='xbt'>{{item.name}}</view>
+      <view class='nrrr'>
+        <view class='btnr'>
+        {{item.nr}}
+        </view>
+        <view class='imgg'>
+          <view class='tp1'>
+            <image src='{{item.img1}}'></image>
+          </view>
+          <view class='tp2'>
+            <image src='{{item.img2}}'></image>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>
